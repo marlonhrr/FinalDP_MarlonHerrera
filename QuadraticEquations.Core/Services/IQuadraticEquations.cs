@@ -6,7 +6,7 @@ namespace QuadraticEquations.Core.Services
 {
     public interface IQuadraticEquations
     {
-        double QuadraticEquationsX1(double number1, double number2, double number3);
-        double QuadraticEquationsX2(double number1, double number2, double number3);
+        double QuadraticEquationsX1(double a, double b, double c);
+        double QuadraticEquationsX2(double a, double b, double c);
     }
 }
