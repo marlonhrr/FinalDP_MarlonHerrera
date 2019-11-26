@@ -48,7 +48,7 @@ namespace TipCalculator.Core.ViewModels
             }
         }
 
-        public async override Task Initialize()
+        public override async Task Initialize()
         {
             await base.Initialize();
 
